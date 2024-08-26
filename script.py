@@ -2,8 +2,8 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad,unpad
 import os
 
-KEY = b'P455W0RD-0F-Argus817'
-IV = b'u4\xb5\xc3/\xd0D\xfd\x0b\xf3\x05\x9b\xfa\xc3\xfck'
+KEY = b'\x98\xe6\xdb\xc3\xc2\xce\x7f\x0b\x1d*uhqw\x1f.4'
+IV = os.urandom() 
 
 assert len(KEY) == 16
 assert len(IV) == 16
