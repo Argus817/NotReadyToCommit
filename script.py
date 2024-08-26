@@ -2,7 +2,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad,unpad
 import os
 
-KEY = b'??????'
+KEY = b'Not_Ready_To_Commit'
 IV = os.urandom(16)
 
 assert len(KEY) == 16
