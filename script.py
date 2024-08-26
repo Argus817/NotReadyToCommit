@@ -2,7 +2,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad,unpad
 import os
 
-KEY = b'\xc3\xc2\xce21\x7f\xe6hs\xdb1\xc3\xc2cm:\xce\x7f\x0b\x1d'
+KEY = b'k\x16\xf17\x00\xf1\xd0\x0c\x03m:\xeb9\xf1\xd5N'
 IV = os.urandom() 
 
 assert len(KEY) == 16
